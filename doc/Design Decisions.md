@@ -4,7 +4,7 @@
 8 native comparison operations are provided.
 The result of the comparison is stored in the Compare bit of the status register for later use.
 All 8 operands are of the form:
-> A : Register
+> A : Register  
 > B : Register or Immediate
 
 GT (>) and GTU (>) are able to be calculated in a single instruction using one of the other 6 operations, however this is only possible with two register operands.
@@ -16,21 +16,21 @@ As the Greater-Than comparisons are primarily for use with immediate operands, i
 
 At first, we had following design:
 
-**	Instruction Formats:**
-Fixed size of 16 bits.
-Up to 32 native instructions.
-Up to 8 possible functions per opcode.
-Up to 16 addressable general-purpose registers.
+**Instruction Formats:**  
+Fixed size of 16 bits.  
+Up to 32 native instructions.  
+Up to 8 possible functions per opcode.  
+Up to 16 addressable general-purpose registers.  
 
-**	Register-Type (R)**
+**Register-Type (R)**  
 Two 4-bit registers and 3-bit function / operation type.
 
 | opcode | reg1  | reg2  | function |
 |--------|-------|-------|----------|
 | 5-bit  | 4-bit | 4-bit | 3-bit    |
 
-**	Immediate-Type (I)**
-One 3-bit register and sign-extended 8-bit operand.
+**Immediate-Type (I)**  
+One 3-bit register and sign-extended 8-bit operand.  
 Only the lower 8 registers can be addressed by this instruction type.
 
 | opcode | reg1  | imm   |
@@ -62,9 +62,9 @@ Other instructions were not implemented natively due to being:
 
 **Examples:**
 
-* LI (load immediate)
+* LI (load immediate)  
 Any of: AND $rd, $0, imm ; OR $rd, $0, imm ; etc.
-* LUI (load upper immediate)
+* LUI (load upper immediate)  
 Unnecessary, as instruction format holds full 16-bit immediate.
 
 ## No Native Control Transfer Instructions
