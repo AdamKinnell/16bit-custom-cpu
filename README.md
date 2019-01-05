@@ -1,4 +1,5 @@
-#16-bit Custom CPU
+# 16-bit Custom CPU
+
 Custom CPU architecture created in [logisim-evolution](https://github.com/reds-heig/logisim-evolution "logism-evolution").
 
 ![](https://github.com/AdamKinnell/16bit-custom-cpu/blob/master/img/computer_screenshot.png)
@@ -38,11 +39,11 @@ Therefore, if the instruction memory is not modified, the processor will do noth
 
 ## Loading programs
 1. Go to the `RAM_1KB_A` circuit in the window on the left side of the logisim application.
-2. Right-click on the memory bank and go to `Edit Contents...`.
+2. Right-click on the memory bank and go to `Edit Contents...`
 3. Enter machine code directly or load it from a file.
 4. Memory is updated once the main window is in focus again, no need to close the window or apply changes.
 
-Each group in the hex editor window is 32-bits (1 instruction).
+Each group in the hex editor window is 32-bits (1 instruction).  
 Input is big-endian, so no need to swap bytes or do anything messy.
 
 You may keep the hex editor open to modify the code as it's being run.
