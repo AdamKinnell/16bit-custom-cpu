@@ -1,5 +1,9 @@
 # Instructions
 
+There are a total of 27 instructions implemented, which are split into 5 categories.
+
+<img src="https://github.com/AdamKinnell/16bit-custom-cpu/blob/master/img/native_instructions.png">
+
 ## Format
 Fixed size of 32 bits (2 native 16-bit words) with a fixed format.  
 Supports up to 32 *opcodes* with an additional 8 *functions* per opcode.  
