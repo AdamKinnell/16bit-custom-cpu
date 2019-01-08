@@ -25,7 +25,7 @@ although the inbuilt memory cells are used for performance reasons.
 1. Download [logisim-evolution](https://github.com/reds-heig/logisim-evolution "logism-evolution")
 Last tested with version 2.41.6
 2. Download `cpu.circ` from this repository.
-3. (Optional) Download the basic assembler from [TODO].
+3. (Optional) Download the basic assembler from [here](https://github.com/AdamKinnell/16bit-custom-cpu-assembler).
 4. Run `logisim-evolution` and load `cpu.circ`
 5. Enable simulation by selecting to the `Simulate->Simulation Enabled` menu item.
 6. Reset the simulation selecting to the `Simulate->Reset Simulation` menu item.
