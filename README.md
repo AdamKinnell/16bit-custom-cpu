@@ -2,7 +2,7 @@
 
 Custom CPU architecture created in [logisim-evolution](https://github.com/reds-heig/logisim-evolution "logism-evolution").
 
-![](https://github.com/AdamKinnell/16bit-custom-cpu/blob/master/img/computer_screenshot.png)
+![](https://raw.githubusercontent.com/AdamKinnell/16bit-custom-cpu/master/img/computer_screenshot.png)
 
 ## Background
 
@@ -50,12 +50,12 @@ You may keep the hex editor open to modify the code as it's being run.
 
 ## Images
 
-![CPU Datapath](https://github.com/AdamKinnell/16bit-custom-cpu/blob/master/img/cpu_screenshot.png)
+![CPU Datapath](https://raw.githubusercontent.com/AdamKinnell/16bit-custom-cpu/master/img/cpu_screenshot.png)
 Screenshot of the main CPU datapath (the internals of the CPU component shown in the first image).
 
 Each component can be expanded into it's own circuit.
 
 ------------
 
-![CPU Controller](https://github.com/AdamKinnell/16bit-custom-cpu/blob/master/img/cpu_controller_screenshot.png)
+![CPU Controller](https://raw.githubusercontent.com/AdamKinnell/16bit-custom-cpu/master/img/cpu_controller_screenshot.png)
 Screenshot of the CPU controller expanded (the internals of the CPU Controller component shown in the previous image).
