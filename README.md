@@ -17,7 +17,7 @@ It enabled me to experiment with and understand more intricate concepts such as 
 * Separate instruction and data memory.
 * Supports programming via direct memory modification.
 * Interactive and steppable through logisim.
-* Abstracted into 54 components to aid abstraction and understanding.
+* Seperated into 54 components to aid abstraction and understanding.
 * Implemented entirely through logical primitives,  
 although the inbuilt memory cells are used for performance reasons.
 
