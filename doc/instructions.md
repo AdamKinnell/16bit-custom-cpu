@@ -23,7 +23,7 @@ MSB(31) is on the left, and LSB(0) is on the right.
 r1 is also known as *Destination*, as the result is usually stored here.  
 r2 is also known as *Source*, as it is usually used as an operand.
 
-Any register may be specified as an operand, including special registers and when r1=r2.
+Any register may be specified as an operand, including special registers and when r1=r2.  
 e.g. you may perform `ADD($t0,$t0)` to get `$t0 = $t0 + $t0`, or `SUB($zero,$t0, 5)` to set the status bits after performing `$t0 - 5` and discarding the result.
 
 The function bits are directly used as the opcode for internal systems.  
