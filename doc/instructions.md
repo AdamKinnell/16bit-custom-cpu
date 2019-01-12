@@ -30,7 +30,7 @@ The function bits are directly used as the opcode for internal systems.
 Attempting to use unsupported functions will result in undefined behaviour.
 
 ## Types
-Three different types of instructions are currently supported.
+Three different types of instructions are currently supported.  
 An RR(C) type instruction could be added in the future.
 
 ### RR: Register-Register
